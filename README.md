@@ -1,3 +1,5 @@
+9.12.2021: The repository is archived and not maintenanced.
+
 OnScreenJoystick
 ================
 
@@ -16,7 +18,7 @@ How to use
         android:layout_gravity="right|bottom"  
         android:background="@drawable/joystick_bg"/>
 ```
-* Let your activity implement OnScreenJoystickListener interface:
+* Implement an OnScreenJoystickListener:
 ```
 public class MainActivity extends Activity implements OnScreenJoystickListener {
 ...
@@ -33,4 +35,3 @@ public class MainActivity extends Activity implements OnScreenJoystickListener {
 ((OnScreenJoystick) findViewById(R.id.directionJoystick))
 				.setJoystickListener(this);
 ```
-* Enjoy.
